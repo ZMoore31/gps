@@ -45,3 +45,12 @@ html {
   height: 50px;
   margin-top: 25px;
 }
+
+@media (max-width: 991px) {
+  .header {
+    height: 400px;
+  }
+  .header h1 {
+    padding-top: 150px;
+  }
+}
