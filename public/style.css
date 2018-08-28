@@ -1,6 +1,5 @@
 html {
   font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  position: relative;
 }
 
 .navbar {
@@ -42,8 +41,20 @@ html {
 }
 
 .footer {
-  height: 50px;
-  margin-top: 25px;
+  height: 75px;
+  padding-top: 25px;
+}
+
+img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: auto;
+}
+
+.staff {
+  height: auto;
+  margin-top: 50px;
 }
 
 @media (max-width: 991px) {
