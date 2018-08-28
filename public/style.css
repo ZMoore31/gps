@@ -1,0 +1,47 @@
+html {
+  font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: auto;
+}
+
+.header {
+  margin: 0;
+  margin-top: 55px;
+  padding: 0;
+  height: 600px;
+  min-width: 100%;
+  color: #fff;
+  background: url(/public/images/omaha.jpg) no-repeat center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header h1 {
+  padding-top: 250px;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.footer {
+  height: 50px;
+  margin-top: 25px;
+}
