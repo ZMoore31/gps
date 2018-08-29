@@ -10,4 +10,8 @@ module.exports = function(app) {
   app.get("/staff", function(req, res) {
     res.render("pages/staff");
   });
+
+  app.get("/services", function(req, res) {
+    res.render("pages/services");
+  });
 };

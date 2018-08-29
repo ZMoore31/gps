@@ -8,6 +8,14 @@ body {
   padding: 0px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+.card {
+  height: 100%;
+}
+
 .navbar {
   text-align: center;
 }
